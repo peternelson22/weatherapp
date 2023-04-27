@@ -16,6 +16,10 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-eb2d.up.railway.app/'
+]
+
 
 # Application definition
 
