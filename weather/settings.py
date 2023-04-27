@@ -16,9 +16,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = [
-    'https://web-production-eb2d.up.railway.app/'
-]
+# CSRF_TRUSTED_ORIGINS = [
+# ]
 
 
 # Application definition
@@ -30,7 +29,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'api',
+    'api.apps.ApiConfig',
 ]
 
 MIDDLEWARE = [
